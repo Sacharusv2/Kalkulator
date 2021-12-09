@@ -23,8 +23,13 @@ public class Main {
         return a * b;
         }
 
-        public int division(){
-        return a / b;
+          public Integer division(){
+            if(b==0 || a==0){
+                return null;
+            }                               
+            else{
+                return a/b;
+            }
         }
 
         public double exponentiation(){
