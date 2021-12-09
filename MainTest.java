@@ -84,10 +84,10 @@ public class MainTest {
         Main main = new Main(3, -1);
         assertEquals(-3, main.division());
     }
-    @Test
-    public void  ThreeDividedByZeroReturnWHY() {
+  @Test
+    public void  ThreeDividedByZeroReturnIDK() {
         Main main = new Main(3, 0);
-        assertEquals("Don't even try", main.division());
+        assertNull(main.division());
     }
     @Test
     public void  MinusThreeDividedByMinusThreeReturnOne() {
