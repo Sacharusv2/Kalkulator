@@ -20,7 +20,7 @@ public class MainTest {
     @Test
     public void ThreePlusMinusOneReturnTwo() {
         Main main = new Main(3, -1);
-        assertEquals(-2, main.add());
+        assertEquals(2, main.add());
     }
 
 
